@@ -8,6 +8,5 @@ os:
   - linux
 
 script:
-  - mkdir build
   - cmake -B build -S .
   - cmake --build build
