@@ -1,4 +1,9 @@
-dist: trusty
+dist: 
+  - trusty
+  - precise 
+  - xenial
+  - bionic
+
 sudo: false
 language: cpp
 compiler:
